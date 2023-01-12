@@ -24,6 +24,10 @@ nav{
 .titulo{
     text-align: center;
 }
+img{
+    max-width: 150px;
+    margin: 0 auto;
+}
 .produto{
     display: flex;
     justify-content: center;
@@ -32,12 +36,20 @@ nav{
 }
 .container-produto{
     margin: 5%;
+    
 }
+
 .produto-id{
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    
+}
+button{
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
 }
 footer{
     width: 100%;
